@@ -1,0 +1,131 @@
+{
+  "projects": [
+    {
+      "id": "meeting-review",
+      "title": "会脉",
+      "description": "固定团队会议决策、行动项与跨会议记忆",
+      "url": "https://github.com/MN0709/meeting-review",
+      "image": "assets/showcase/product_1.png",
+      "category": "项目"
+    },
+    {
+      "id": "DeskResearch",
+      "title": "DeskResearch",
+      "description": "本地优先的 macOS 办公调研 Agent：输入主题，搜索公开网页，确认来源，生成带引用的 Excel 底稿、Markdown 报告与 JSON 证据。",
+      "url": "https://github.com/MN0709/DeskResearch",
+      "image": "assets/showcase/product_2.png",
+      "category": "项目"
+    },
+    {
+      "id": "MotoViz",
+      "title": "MotoViz",
+      "description": "面向摩托车改装店的 3D 可视化与 RAG 配件及故障检索团队 MVP。",
+      "url": "https://github.com/MN0709/MotoViz",
+      "image": "assets/showcase/product_3.png",
+      "credit": "团队 MVP · 我负责 RAG 方向",
+      "category": "项目"
+    },
+    {
+      "id": "xuanfudao",
+      "title": "悬浮岛",
+      "description": "常驻 Mac 顶部的本地工作台，含待办、AI 任务、专注计时与电脑状态。",
+      "url": "https://github.com/MN0709/xuanfudao",
+      "image": "assets/showcase/product_4.png",
+      "credit": "基于 17lijunyi/xuanfudao 与 TO-DO-Panel；上游归属见仓库说明",
+      "category": "项目"
+    }
+  ],
+  "resources": [
+    {
+      "id": "meeting-product-spec-v1",
+      "title": "产品设计：会脉产品规格 V1",
+      "description": "产品定位、信息架构与信任规则",
+      "url": "https://github.com/MN0709/meeting-review/blob/main/docs/PRODUCT_SPEC_V1.md",
+      "image": "assets/showcase/document_1.png",
+      "credit": "早期产品规格；现状以仓库首页为准",
+      "category": "知识文档"
+    },
+    {
+      "id": "motoviz-api-contract",
+      "title": "接口协作：MotoViz API 契约",
+      "description": "3D、RAG 与前端 API 契约",
+      "url": "https://github.com/MN0709/MotoViz/blob/main/docs/api-contract.md",
+      "image": "assets/showcase/document_2.png",
+      "category": "知识文档"
+    },
+    {
+      "id": "15s-scene-director-lite",
+      "title": "15 秒剧情镜头导演",
+      "description": "把简单剧情整理成最长 15 秒动作连续的电影感视频提示词的基础版 Doubao Skill。",
+      "url": "https://github.com/MN0709/15s-scene-director-lite",
+      "image": "assets/showcase/skill_1.png",
+      "category": "Skill"
+    },
+    {
+      "id": "light-fresh-short-film",
+      "title": "光感小清新短片",
+      "description": "把人物、场景和剧情整理成 5–30 秒冷白逆光、夏日青春感的中文视频提示词的 Doubao Skill。",
+      "url": "https://github.com/MN0709/light-fresh-short-film",
+      "image": "assets/showcase/skill_2.png",
+      "category": "Skill"
+    }
+  ],
+  "articles": [
+    {
+      "title": "AI 短片为什么总拍出“廉价感”？从一个开源提示词 Skill 说起",
+      "url": "https://mp.weixin.qq.com/s/uZz9UYeea2hLUhraux4-jw"
+    },
+    {
+      "title": "AI视频提示词总翻车？这个15秒电影感Skill，免费送",
+      "url": "https://mp.weixin.qq.com/s/WKaOWsEiCgC_4gpqy7PQqA"
+    },
+    {
+      "title": "AI 出图没有故事感？问题出在提示词里没有“导演”",
+      "url": "https://mp.weixin.qq.com/s/oyRt9fqH-uVuAhnrBbwpgQ"
+    },
+    {
+      "title": "AI生图一出手就露馅？问题不在模型，在你写的提示词",
+      "url": "https://mp.weixin.qq.com/s/JzZGPTQE_XgYOK3Pa73n_A"
+    },
+    {
+      "title": "每天省回 3 小时：他把「刷 X 找选题」整个外包给了 Grok",
+      "url": "https://mp.weixin.qq.com/s/iFhSuHmabYDnM0LQNDPglQ"
+    },
+    {
+      "title": "50 个 Agent 一个月烧掉 $48,600：它们死于“衰老”，不是模型不行",
+      "url": "https://mp.weixin.qq.com/s/RbJfMZOdl1smIzcddewcQw"
+    },
+    {
+      "title": "Opus 5.5 负责想，Jev 负责选：agent 省钱的真正位置不在模型里",
+      "url": "https://mp.weixin.qq.com/s/kw4bCClqDAOMMTQK2T-m0w"
+    },
+    {
+      "title": "466 个视频案例、25 套模板，这位博主把 Seedance 玩法整理开源了",
+      "url": "https://mp.weixin.qq.com/s/RPRpMA8Yz_sAH0ftCYwIfw"
+    },
+    {
+      "title": "Could Skills Become the App Store of the AI Era?",
+      "url": "https://mp.weixin.qq.com/s/0q1qbYREkA4SQyrLRZ05Kw"
+    },
+    {
+      "title": "When Phones Cost ¥1,000 More, Should AI Products Leave Users a Way Out?",
+      "url": "https://mp.weixin.qq.com/s/RsIjyleZqIkPkUU8D_Uhjw"
+    },
+    {
+      "title": "NVIDIA's $12.93 Billion Bet on the “GitHub of AI”",
+      "url": "https://mp.weixin.qq.com/s/gTfkKZahSCrVTfAFxS__-Q"
+    },
+    {
+      "title": "人负责偶遇，算法负责引爆：5万粉博主采访到了黑道大佬",
+      "url": "https://mp.weixin.qq.com/s/2HRmbR2oRsVnUm00kPPtBw"
+    },
+    {
+      "title": "A800 显卡抢不到的那天，我才明白大模型时代的算力到底有多缺",
+      "url": "https://mp.weixin.qq.com/s/0BbY7I5e3Iu8QFaULEXpZA"
+    },
+    {
+      "title": "AI 写作为什么总有一股“AI 味”？从一个开源写作 Skill 看大模型的语言习惯",
+      "url": "https://mp.weixin.qq.com/s/9Fog_QIVS1Ly4SYLVWgBrw"
+    }
+  ]
+}
