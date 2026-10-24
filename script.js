@@ -190,7 +190,7 @@
     update();
   }
 
-  fetch('content.json?v=20261024-14covers')
+  fetch('content.json?v=20261024-5projects')
     .then(response => { if (!response.ok) throw new Error(`Content HTTP ${response.status}`); return response.json(); })
     .then(content => {
       initCarousel('projects', content.projects, 'project-cards', 'project');

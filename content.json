@@ -33,6 +33,15 @@
       "image": "assets/showcase/product_4.png",
       "credit": "基于 17lijunyi/xuanfudao 与 TO-DO-Panel；上游归属见仓库说明",
       "category": "项目"
+    },
+    {
+      "id": "product-dream-factory",
+      "title": "产品梦工厂",
+      "description": "把 AI 助手、项目文件、团队协作和模型对比放进同一个桌面工作台。",
+      "url": "https://github.com/MN0709/product-dream-factory",
+      "image": "assets/showcase/product_5.png",
+      "credit": "基于周承健的产品经理工作台及 AionUi / AionCore；详见仓库 NOTICE",
+      "category": "项目"
     }
   ],
   "resources": [
