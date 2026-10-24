@@ -81,55 +81,107 @@
     },
     {
       "title": "AI视频提示词总翻车？这个15秒电影感Skill，免费送",
-      "url": "https://mp.weixin.qq.com/s/WKaOWsEiCgC_4gpqy7PQqA"
+      "url": "https://mp.weixin.qq.com/s/WKaOWsEiCgC_4gpqy7PQqA",
+      "image": "assets/showcase/article-02.png",
+      "imageAlt": "雨夜便利店里，马宁手持场记板观察橘猫，连贯分镜浮在身旁",
+      "coverTitle": "镜头导演",
+      "coverSubtitle": "把十五秒拍成连贯的一镜"
     },
     {
       "title": "AI 出图没有故事感？问题出在提示词里没有“导演”",
-      "url": "https://mp.weixin.qq.com/s/oyRt9fqH-uVuAhnrBbwpgQ"
+      "url": "https://mp.weixin.qq.com/s/oyRt9fqH-uVuAhnrBbwpgQ",
+      "image": "assets/showcase/article-03.png",
+      "imageAlt": "马宁在浅色窗口中编排白蛇守护素衣女子的电影关键帧",
+      "coverTitle": "故事入镜",
+      "coverSubtitle": "让人物与世界产生关系"
     },
     {
       "title": "AI生图一出手就露馅？问题不在模型，在你写的提示词",
-      "url": "https://mp.weixin.qq.com/s/JzZGPTQE_XgYOK3Pa73n_A"
+      "url": "https://mp.weixin.qq.com/s/JzZGPTQE_XgYOK3Pa73n_A",
+      "image": "assets/showcase/article-04.png",
+      "imageAlt": "马宁在屋顶晾衣场透过飘动白布举起相机，午后光线略带失焦",
+      "coverTitle": "真实一刻",
+      "coverSubtitle": "从不完美里找回照片感"
     },
     {
       "title": "每天省回 3 小时：他把「刷 X 找选题」整个外包给了 Grok",
-      "url": "https://mp.weixin.qq.com/s/iFhSuHmabYDnM0LQNDPglQ"
+      "url": "https://mp.weixin.qq.com/s/iFhSuHmabYDnM0LQNDPglQ",
+      "image": "assets/showcase/article-05.png",
+      "imageAlt": "马宁在桌前审阅草稿，社交帖子、研究洞察与人工取舍的卡片在身旁串联",
+      "coverTitle": "选题流水线",
+      "coverSubtitle": "机器找线索，人决定发布"
     },
     {
       "title": "50 个 Agent 一个月烧掉 $48,600：它们死于“衰老”，不是模型不行",
-      "url": "https://mp.weixin.qq.com/s/RbJfMZOdl1smIzcddewcQw"
+      "url": "https://mp.weixin.qq.com/s/RbJfMZOdl1smIzcddewcQw",
+      "image": "assets/showcase/article-06.png",
+      "imageAlt": "穿蓝色针织背心的女孩修复记忆渐褪的小型智能体，旁边摆着沙漏和计算资源卡片",
+      "coverTitle": "智能体衰老",
+      "coverSubtitle": "上下文老化与成本账单"
     },
     {
       "title": "Opus 5.5 负责想，Jev 负责选：agent 省钱的真正位置不在模型里",
-      "url": "https://mp.weixin.qq.com/s/kw4bCClqDAOMMTQK2T-m0w"
+      "url": "https://mp.weixin.qq.com/s/kw4bCClqDAOMMTQK2T-m0w",
+      "image": "assets/showcase/article-07.png",
+      "imageAlt": "女孩在工作台把任务卡片送入快速分诊闸口，再把复杂任务送往推理球体",
+      "coverTitle": "决策分流",
+      "coverSubtitle": "轻决策先行，重推理后置"
     },
     {
       "title": "466 个视频案例、25 套模板，这位博主把 Seedance 玩法整理开源了",
-      "url": "https://mp.weixin.qq.com/s/RPRpMA8Yz_sAH0ftCYwIfw"
+      "url": "https://mp.weixin.qq.com/s/RPRpMA8Yz_sAH0ftCYwIfw",
+      "image": "assets/showcase/article-08.png",
+      "imageAlt": "女孩对照视频案例墙、提示词模板和产品广告分镜板整理短片创作方法",
+      "coverTitle": "视频模板",
+      "coverSubtitle": "从案例找到可复用写法"
     },
     {
       "title": "Could Skills Become the App Store of the AI Era?",
-      "url": "https://mp.weixin.qq.com/s/0q1qbYREkA4SQyrLRZ05Kw"
+      "url": "https://mp.weixin.qq.com/s/0q1qbYREkA4SQyrLRZ05Kw",
+      "image": "assets/showcase/article-09.png",
+      "imageAlt": "女孩在模块化技能面板上选择卡片，旁边有搜索、信任验证和个性化调节图标",
+      "coverTitle": "技能生态",
+      "coverSubtitle": "发现、信任与个性化"
     },
     {
       "title": "When Phones Cost ¥1,000 More, Should AI Products Leave Users a Way Out?",
-      "url": "https://mp.weixin.qq.com/s/RsIjyleZqIkPkUU8D_Uhjw"
+      "url": "https://mp.weixin.qq.com/s/RsIjyleZqIkPkUU8D_Uhjw",
+      "image": "assets/showcase/article-10.png",
+      "imageAlt": "女孩手持手机，旁边的透明界面分出基础服务、升级和数据导出路径",
+      "coverTitle": "用户退路",
+      "coverSubtitle": "涨价之后仍能选择"
     },
     {
       "title": "NVIDIA's $12.93 Billion Bet on the “GitHub of AI”",
-      "url": "https://mp.weixin.qq.com/s/gTfkKZahSCrVTfAFxS__-Q"
+      "url": "https://mp.weixin.qq.com/s/gTfkKZahSCrVTfAFxS__-Q",
+      "image": "assets/showcase/article-11.png",
+      "imageAlt": "女孩观察由芯片、开发工具和模型方块组成的三层分发网络",
+      "coverTitle": "模型入口",
+      "coverSubtitle": "芯片连接开源模型库"
     },
     {
       "title": "人负责偶遇，算法负责引爆：5万粉博主采访到了黑道大佬",
-      "url": "https://mp.weixin.qq.com/s/2HRmbR2oRsVnUm00kPPtBw"
+      "url": "https://mp.weixin.qq.com/s/2HRmbR2oRsVnUm00kPPtBw",
+      "image": "assets/showcase/article-12.png",
+      "imageAlt": "女孩在酒店外用手机拍摄一名背对镜头的路人，视频画面沿网络节点扩散",
+      "coverTitle": "偶遇引爆",
+      "coverSubtitle": "街头采访遇上算法分发"
     },
     {
       "title": "A800 显卡抢不到的那天，我才明白大模型时代的算力到底有多缺",
-      "url": "https://mp.weixin.qq.com/s/0BbY7I5e3Iu8QFaULEXpZA"
+      "url": "https://mp.weixin.qq.com/s/0BbY7I5e3Iu8QFaULEXpZA",
+      "image": "assets/showcase/article-13.png",
+      "imageAlt": "女孩坐在计算机教室，身边有排队使用的工作站和玻璃展示柜中的显卡",
+      "coverTitle": "算力缺口",
+      "coverSubtitle": "抢不到显卡的那堂课"
     },
     {
       "title": "AI 写作为什么总有一股“AI 味”？从一个开源写作 Skill 看大模型的语言习惯",
-      "url": "https://mp.weixin.qq.com/s/9Fog_QIVS1Ly4SYLVWgBrw"
+      "url": "https://mp.weixin.qq.com/s/9Fog_QIVS1Ly4SYLVWgBrw",
+      "image": "assets/showcase/article-14.png",
+      "imageAlt": "女孩在书桌上将真实照片和笔记加入草稿，旁边是排版过于整齐的文字页",
+      "coverTitle": "写作人味",
+      "coverSubtitle": "真实材料比改词更重要"
     }
   ]
 }

@@ -182,7 +182,7 @@
     update();
   }
 
-  fetch('content.json')
+  fetch('content.json?v=20261024-14covers')
     .then(response => { if (!response.ok) throw new Error(`Content HTTP ${response.status}`); return response.json(); })
     .then(content => {
       initCarousel('projects', content.projects, 'project-cards', 'project');
