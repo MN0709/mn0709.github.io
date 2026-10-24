@@ -165,8 +165,17 @@ img { display: block; max-width: 100%; }
 .article-cover.tone-4 { background: linear-gradient(135deg,#523d38,#ce9277); }
 .article-cover.tone-5 { background: linear-gradient(135deg,#294340,#8aaf8d); }
 .article-cover.tone-0 { background: linear-gradient(135deg,#343e68,#7182b0); }
+.article-cover.illustrated-cover { height: 51%; padding: 0; display: block; color: var(--ink); background: #f8fafc; }
+.illustrated-cover::before { display: none; }
+.illustrated-cover::after { inset: 0; width: auto; height: auto; border: 0; border-radius: 0; background: linear-gradient(90deg, rgba(255,255,255,.32), transparent 62%); }
+.article-cover-image { width: 100%; height: 100%; object-fit: cover; object-position: center; }
+.article-cover-copy { position: absolute; z-index: 1; top: 21%; left: 6%; width: 43%; display: flex; flex-direction: column; align-items: flex-start; color: #192532; text-shadow: 0 1px 2px rgba(255,255,255,.75); }
+.article-cover-copy strong { font-size: clamp(23px, 2.2vw, 29px); font-weight: 800; line-height: 1.15; letter-spacing: -.07em; }
+.article-cover-copy strong::after { content: ""; width: 88%; height: 4px; margin-top: 6px; display: block; border-radius: 5px; background: #ff9b54; transform: rotate(-2deg); }
+.article-cover-copy span { margin-top: 8px; color: #3f5164; font-size: 10px; font-weight: 700; line-height: 1.4; }
 .article-card .card-body h3 { font-size: clamp(19px, 1.8vw, 25px); }
 .article-card .card-body { padding-top: 17px; }
+#writing .carousel-window { height: clamp(540px, 68svh, 650px); }
 .carousel-bottom { margin-top: 8px; display: flex; align-items: center; justify-content: space-between; gap: 20px; color: #9aa6b7; font-size: 10px; }
 .carousel-progress { width: 180px; height: 3px; overflow: hidden; border-radius: 5px; background: #e1e6ef; }
 .carousel-progress span { display: block; width: 0; height: 100%; background: var(--accent); transition: width .4s; }
@@ -217,6 +226,7 @@ img { display: block; max-width: 100%; }
   .card-action { padding-top: 8px; }
   .article-cover { height: 43%; }
   .article-card .card-body h3 { font-size: clamp(18px, 1.8vw, 23px); }
+  #writing .carousel-window { height: clamp(400px, calc(100svh - 315px), 620px); }
 }
 
 @media (max-width: 1020px) {
@@ -259,6 +269,9 @@ img { display: block; max-width: 100%; }
   .card-body { padding: 17px 18px 18px; }
   .card-body h3 { font-size: 24px; }
   .article-card .card-body h3 { font-size: 21px; }
+  #writing .carousel-window { height: 650px; }
+  #writing .article-card { height: 600px; }
+  .article-cover-copy { display: none; }
   .carousel-controls button { width: 32px; height: 32px; font-size: 17px; }
   .project-nav { top: 39%; width: 44px; height: 44px; padding-bottom: 4px; font-size: 30px; }
   .project-nav.carousel-prev { left: 5px; }
@@ -282,6 +295,8 @@ img { display: block; max-width: 100%; }
   .showcase-card { width: min(300px, 84%); }
   .carousel-window { height: 570px; }
   .showcase-card { height: 520px; }
+  #writing .carousel-window { height: 630px; }
+  #writing .article-card { height: 580px; }
   .entry-body { min-height: 450px; }
   .entry-title { margin-top: 50px; }
   .entry-title strong { font-size: 65px; }

@@ -73,7 +73,11 @@
   "articles": [
     {
       "title": "AI 短片为什么总拍出“廉价感”？从一个开源提示词 Skill 说起",
-      "url": "https://mp.weixin.qq.com/s/uZz9UYeea2hLUhraux4-jw"
+      "url": "https://mp.weixin.qq.com/s/uZz9UYeea2hLUhraux4-jw",
+      "image": "assets/showcase/article-01-light-fresh-sample.png",
+      "imageAlt": "夏日庭院的冷白逆光下，人物整理连续分镜，玻璃杯折射日光",
+      "coverTitle": "短片质感",
+      "coverSubtitle": "光线规则 · 连续分镜"
     },
     {
       "title": "AI视频提示词总翻车？这个15秒电影感Skill，免费送",

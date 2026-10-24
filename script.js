@@ -78,8 +78,23 @@
     card.setAttribute('aria-label', `${item.title}，打开${type === 'article' ? '公众号原文' : '公开仓库'}`);
 
     if (type === 'article') {
-      const cover = node('div', `article-cover tone-${(index + 1) % 6}`);
-      cover.append(node('span', 'cover-top', 'MN / PUBLIC WRITING'), node('span', 'cover-symbol', 'AI'), node('span', 'cover-bottom', `ARTICLE ${String(index + 1).padStart(2, '0')} / ${String(total).padStart(2, '0')}`));
+      const cover = node('div', item.image ? 'article-cover illustrated-cover' : `article-cover tone-${(index + 1) % 6}`);
+      if (item.image) {
+        const image = node('img', 'article-cover-image');
+        image.src = item.image;
+        image.alt = item.imageAlt || `${item.title}文章封面`;
+        image.loading = index < 2 ? 'eager' : 'lazy';
+        cover.append(image);
+        if (item.coverTitle) {
+          const copy = node('div', 'article-cover-copy');
+          copy.setAttribute('aria-hidden', 'true');
+          copy.append(node('strong', '', item.coverTitle));
+          if (item.coverSubtitle) copy.append(node('span', '', item.coverSubtitle));
+          cover.append(copy);
+        }
+      } else {
+        cover.append(node('span', 'cover-top', 'MN / PUBLIC WRITING'), node('span', 'cover-symbol', 'AI'), node('span', 'cover-bottom', `ARTICLE ${String(index + 1).padStart(2, '0')} / ${String(total).padStart(2, '0')}`));
+      }
       card.append(cover);
     } else {
       const cover = node('div', 'card-cover');
