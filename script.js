@@ -81,7 +81,8 @@
       const cover = node('div', item.image ? 'article-cover illustrated-cover' : `article-cover tone-${(index + 1) % 6}`);
       if (item.image) {
         const image = node('img', 'article-cover-image');
-        image.src = item.image;
+        if (index < 2) image.src = item.image;
+        else image.dataset.src = item.image;
         image.alt = item.imageAlt || `${item.title}文章封面`;
         image.loading = index < 2 ? 'eager' : 'lazy';
         cover.append(image);
@@ -133,6 +134,13 @@
         let offset = index - current;
         if (offset > items.length / 2) offset -= items.length;
         if (offset < -items.length / 2) offset += items.length;
+        if (type === 'article' && Math.abs(offset) <= 1) {
+          const image = card.querySelector('img[data-src]');
+          if (image) {
+            image.src = image.dataset.src;
+            image.removeAttribute('data-src');
+          }
+        }
         card.dataset.offset = Math.abs(offset) <= 2 ? String(offset) : 'far';
         card.tabIndex = offset === 0 ? 0 : -1;
         card.setAttribute('aria-hidden', offset === 0 ? 'false' : 'true');
