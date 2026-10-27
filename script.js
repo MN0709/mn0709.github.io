@@ -158,7 +158,10 @@
     root.querySelector('.carousel-prev').addEventListener('click', () => step(-1));
     root.querySelector('.carousel-next').addEventListener('click', () => step(1));
     cards.forEach((card, index) => card.addEventListener('click', event => {
-      if (index !== current) { event.preventDefault(); goTo(index); }
+      if (index !== current && !event.target.closest?.('.card-action')) {
+        event.preventDefault();
+        goTo(index);
+      }
     }));
 
     const windowElement = root.querySelector('.carousel-window');
@@ -166,7 +169,6 @@
     let suppressClick = false;
     windowElement.addEventListener('pointerdown', event => {
       dragStart = { x: event.clientX, y: event.clientY };
-      windowElement.setPointerCapture?.(event.pointerId);
     });
     windowElement.addEventListener('pointermove', event => {
       if (dragStart && Math.abs(event.clientX - dragStart.x) > 10) windowElement.classList.add('is-dragging');
