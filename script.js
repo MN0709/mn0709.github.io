@@ -157,13 +157,6 @@
     function step(delta) { goTo(current + delta); }
     root.querySelector('.carousel-prev').addEventListener('click', () => step(-1));
     root.querySelector('.carousel-next').addEventListener('click', () => step(1));
-    cards.forEach((card, index) => card.addEventListener('click', event => {
-      if (index !== current && !event.target.closest?.('.card-action')) {
-        event.preventDefault();
-        goTo(index);
-      }
-    }));
-
     const windowElement = root.querySelector('.carousel-window');
     let dragStart = null;
     let suppressClick = false;
